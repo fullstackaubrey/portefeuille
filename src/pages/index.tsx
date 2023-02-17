@@ -35,8 +35,8 @@ export default function Home() {
         </ul>
       </nav>
       <div className="flex">
-        <main className="h-2/3 flex flex-row bg-slate-100 ml-6 mr-1 mb-6 mt-6 shadow-md shadow-zinc-600 cursor-pointer">
-          <section className="mx-6 my-6 w-2/3 bg-slate-200 shadow-md shadow-zinc-400 rounded-sm hover:shadow-lg hover:shadow-zinc-500">
+        <main className="h-2/3 flex flex-row bg-slate-100 ml-6 mr-1 mb-6 mt-6 shadow-md shadow-zinc-600 cursor-pointer hover:shadow-zinc-700">
+          <section className="mx-6 my-6 w-2/3 bg-slate-200 shadow-md shadow-zinc-400 rounded-sm hover:shadow-zinc-500">
             <header className="p-4 text-center text-lg text-white tracking-wider font-semibold bg-slate-400">
               Portefeuille d'Aubrey
             </header>
@@ -62,14 +62,14 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="w-1/3 flex justify-center shadow-inner shadow-zinc-400 bg-slate-200">
+          <section className="w-1/3 flex justify-center shadow-inner shadow-zinc-400 hover:shadow-zinc-500 bg-slate-200">
             <div className="m-6 w-56 h-56 self-center rounded-full shadow-sm shadow-zinc-600 bg-red-400 hover:scale-105 duration-500" />
           </section>
         </main>
 
         <div className=" bg-slate-200 w-2/3 h-96 overflow-y-scroll scroll-smooth mx-6 mt-6 shadow-md  shadow-zinc-500 text-zinc-800 rounded-sm hover:shadow-zinc-600 cursor-pointer">
           <section className="m-6">
-            <div className=" bg-slate-100 p-6 shadow-inner shadow-zinc-600 rounded hover:bg-slate-500 hover:text-slate-100 duration-600">
+            <div className=" bg-slate-100 p-6 shadow-inner shadow-zinc-500 rounded hover:bg-slate-500 hover:shadow-zinc-600 hover:text-slate-100 duration-600">
               <p className="p-1">
                 But I must explain to you how all this mistaken idea of
                 denouncing of a pleasure and praising pain was born and I will
