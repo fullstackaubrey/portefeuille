@@ -35,7 +35,7 @@ export default function Home() {
         </ul>
       </nav>
 
-      <main className="h-content w-content flex flex-row bg-slate-100 mx-6 mb-6 mt-6 shadow-md shadow-zinc-600 cursor-pointer">
+      <main className="h-content w-2/3 flex flex-row bg-slate-100 mx-6 mb-6 mt-6 shadow-md shadow-zinc-600 cursor-pointer">
         <section className="m-6 w-2/3 bg-slate-200 shadow-md shadow-zinc-400 rounded-sm hover:shadow-lg hover:shadow-zinc-500">
           <header className="p-4 text-center text-lg text-white tracking-wider font-semibold bg-slate-400">
             Portefeuille d'Aubrey
