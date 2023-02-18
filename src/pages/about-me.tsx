@@ -25,6 +25,7 @@ export default function About() {
               <li className="py-2">Postgres</li>
               <li className="py-2">Node</li>
               <li className="py-2">AWS</li>
+              <li className="py-2">Typescript</li>
             </ul>
           </section>
         </div>
@@ -35,7 +36,7 @@ export default function About() {
           <header className="p-2 self-center text-zinc-700 text-md font-semibold tracking-wider">
             About Development
           </header>
-          <div className="flex justify-center w-full h-full bg-slate-400 shadow-inner shadow-zinc-600 hover:shadow-zinc-700 cursor-pointer">
+          <div className="flex justify-center w-full h-full bg-slate-400 shadow-inner shadow-zinc-600 hover:shadow-zinc-800 cursor-pointer">
             <section className="self-center overflow-y-scroll scroll-smooth m-6 h-5/6 w-full bg-red-200 shadow-inner shadow-zinc-600 hover:shadow-zinc-800 hover:bg-orange-100">
               <div className="h-full m-2 text-zinc-800 text-sm tracking-wide">
                 <p className="p-2">
@@ -52,7 +53,7 @@ export default function About() {
                 </p>
                 <p className="p-2">
                   Currently, I'm working for a local startup, Swaltech. We are
-                  building a web app with a user dashboard. I am working
+                  building a web app with a user dashboard. I'm working
                   diligently with React and Nextjs to build components, and
                   styling the app. As development progresses, I will be learning
                   more Backend technologies on-the-job, such as AWS.

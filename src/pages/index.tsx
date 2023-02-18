@@ -3,7 +3,7 @@ import { Inter } from '@next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 const name = 'Aubrey';
-const job = 'Intermediate Software Engineer';
+const job = 'Software Engineer';
 const hobby = 'Ashtanga Yoga Practitioner';
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
               <section className="m-8 text-slate-800 text-lg">
                 <p className="p-2">Hi there! My name is {name}.</p>
                 <p className="p-2">
-                  I'm an {job} and {hobby}.
+                  I'm a {job} and {hobby}.
                 </p>
                 <p className="p-2">
                   Lorem ipsum dolor sit amet. Non Quis praesentium est dicta
