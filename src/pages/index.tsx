@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Textfield from '@/components/Textfield.tsx';
 import { Inter } from '@next/font/google';
 const inter = Inter({ subsets: ['latin'] });
@@ -10,10 +9,6 @@ const hobby = 'Ashtanga Yoga Practitioner';
 export default function Home() {
   return (
     <div className="flex h-screen w-screen bg-slate-600">
-      <Head>
-        <title>Aubrey Dill | Portefeuille</title>
-      </Head>
-
       <div className="h-full w-2/3 bg-red-300">
         <div className="flex justify-center my-4 ml-4 mr-2 h-full bg-red-100 shadow-md shadow-zinc-600">
           <section className="flex self-center w-full mx-6 h-5/6 bg-slate-400 shadow-sm shadow-zinc-400 cursor-pointer">

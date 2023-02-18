@@ -2,8 +2,6 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 export default function Navbar() {
-  const [input, setInput] = useState('');
-
   return (
     <nav className="w-screen cursor-pointer">
       <ul className="w-full flex flex-row justify-evenly p-3 bg-red-400 text-white shadow-sm shadow-zinc-600 font-semibold">
@@ -12,9 +10,6 @@ export default function Navbar() {
         </Link>
         <Link href="/about-me" className="self-center">
           About Me
-        </Link>
-        <Link href="/resume" className="self-center">
-          Resume
         </Link>
         <Link href="/projects" className="self-center">
           Projects
