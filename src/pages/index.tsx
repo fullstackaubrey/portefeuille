@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Textfield from '@/components/Editbox.tsx';
+import Textfield from '@/components/Textfield.tsx';
 import { Inter } from '@next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
