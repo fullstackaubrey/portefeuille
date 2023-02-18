@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function Editbox() {
+export default function Textfield() {
   const [editMode, setEditMode] = useState(false);
   const [buttonMode, setButtonMode] = useState('edit');
 
