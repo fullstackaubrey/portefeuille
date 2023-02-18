@@ -33,9 +33,39 @@ export default function About() {
       <div className="h-full w-1/3 bg-red-300">
         <div className="flex flex-col my-4 ml-4 mr-2 h-full bg-red-100 shadow-md shadow-zinc-500 hover:shadow-lg hover:shadow-zinc-600">
           <header className="p-2 self-center text-zinc-700 text-md font-semibold tracking-wider">
-            Resume
+            About Me
           </header>
-          <section className="flex self-center w-full h-full bg-slate-400 shadow-inner shadow-zinc-600 hover:shadow-zinc-700 cursor-pointer"></section>
+          <div className="flex justify-center w-full h-full bg-slate-400 shadow-inner shadow-zinc-600 hover:shadow-zinc-700 cursor-pointer">
+            <section className="self-center overflow-y-scroll scroll-smooth m-6 h-5/6 w-full bg-red-200 shadow-inner shadow-zinc-600 hover:shadow-zinc-800 hover:bg-orange-200">
+              <div className="h-full m-2 text-zinc-800 text-sm tracking-wide">
+                <p className="p-2">
+                  Hello, I'm Aubrey! In 2014, I discovered web dev. I remember
+                  learning with Codecademy back in its freemium days, and having
+                  fun making HTML & CSS layouts for my favorite online forums.
+                </p>
+                <p className="p-2">
+                  I never imagined it would become my career, but here I am, a
+                  decade later! I'm a self-taught developer, specializing in
+                  Frontend development. I have played around, briefly, with some
+                  Backend dev tools.
+                </p>
+                <p className="p-2">
+                  Currently, I'm working for a local startup, Swaltech. We are
+                  building a web app with a user dashboard. I am working
+                  diligently with React and Nextjs, as well as styling the app.
+                  As development progresses, I will be learning more Backend
+                  technologies on-the-job, such as AWS.
+                </p>
+                <p className="p-2">
+                  I am looking for a Junior or Intermediate role that will grow
+                  and challenge me. As a relatively new developer, I am
+                  constantly learning new things! I aspire to work with a team
+                  of developers who communicate well remotely, motivate each
+                  other, and share with me their development wisdom.
+                </p>
+              </div>
+            </section>
+          </div>
         </div>
       </div>
 
