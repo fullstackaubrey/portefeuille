@@ -31,12 +31,12 @@ export default function About() {
       </div>
 
       <div className="h-full w-1/3 bg-red-300">
-        <div className="flex flex-col my-4 ml-4 mr-2 h-full bg-red-100 shadow-md shadow-zinc-500 hover:shadow-lg hover:shadow-zinc-600">
+        <div className="flex flex-col my-4 ml-2 mr-2 h-full bg-red-100 shadow-md shadow-zinc-500 hover:shadow-lg hover:shadow-zinc-600">
           <header className="p-2 self-center text-zinc-700 text-md font-semibold tracking-wider">
             About Development
           </header>
           <div className="flex justify-center w-full h-full bg-slate-400 shadow-inner shadow-zinc-600 hover:shadow-zinc-700 cursor-pointer">
-            <section className="self-center overflow-y-scroll scroll-smooth m-6 h-5/6 w-full bg-red-200 shadow-inner shadow-zinc-600 hover:shadow-zinc-800 hover:bg-orange-200">
+            <section className="self-center overflow-y-scroll scroll-smooth m-6 h-5/6 w-full bg-red-200 shadow-inner shadow-zinc-600 hover:shadow-zinc-800 hover:bg-orange-100">
               <div className="h-full m-2 text-zinc-800 text-sm tracking-wide">
                 <p className="p-2">
                   Hello there, I'm Aubrey! In 2014, I discovered web dev. I
@@ -71,31 +71,31 @@ export default function About() {
       </div>
 
       <div className="h-full w-1/3 bg-red-300">
-        <div className="flex flex-col  my-4 ml-4 mr-2 h-full bg-red-100 shadow-md shadow-zinc-500 hover:shadow-lg hover:shadow-zinc-600">
+        <div className="flex flex-col  my-4 ml-2 mr-4 h-full bg-red-100 shadow-md shadow-zinc-500 hover:shadow-lg hover:shadow-zinc-600">
           <header className="p-2 self-center text-zinc-700 text-md font-semibold tracking-wider">
             Personal Blurb
           </header>
           <section className="w-full h-full overflow-y-scroll bg-slate-400 shadow-inner shadow-zinc-600 hover:shadow-zinc-700 cursor-pointer">
-            <div className="m-6 flex flex-col justify-center ">
-              <div className="self-center m-4 w-52 h-52 bg-slate-300 rounded-full" />
-              <p className="p-2">
+            <div className="m-6 flex flex-col bg-orange-200 rounded-sm shadow-md shadow-zinc-700 justify-center text-slate-800 hover:shadow-lg hover:shadow-zinc-800">
+              <div className="self-center m-6 w-52 h-52 bg-slate-600 shadow-md shadow-zinc-600 hover:shadow-zinc-600 rounded-full" />
+              <p className="m-4 p-1">
                 Not only am I a Software Engineer, I'm a Certified Yoga
                 Instructor, practictioner of Ashtanga, and avid writer. Texas is
                 my birthplace, but New Zealand is my homeland!
               </p>
-              <p className="p-2">
+              <p className="m-4 p-1">
                 It's no surprise that health and wellness enthuses me. In the
                 future, I would be most interested in taking my dev skills in
                 the direction of conscious creators and causes that are
                 dedicated to the environment.
               </p>
-              <p className="p-2">
+              <p className="m-4 p-1">
                 Of course, I am much more than what I do for a hobby or where I
                 live. I hope that I may lead by example in my life, to continue
                 being a trailblazer, and to inspire others to be adventurous,
                 deterministic, and brave.
               </p>
-              <p className="p-2">That's the Aubrey way!</p>
+              <p className="m-4 p-1">That's the Aubrey way!</p>
             </div>
           </section>
         </div>
