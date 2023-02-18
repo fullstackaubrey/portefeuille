@@ -22,13 +22,12 @@ export default function Home() {
                   I'm a {job} and {hobby}.
                 </p>
                 <p className="p-2">
-                  Lorem ipsum dolor sit amet. Non Quis praesentium est dicta
-                  quam qui voluptatem veritatis hic dolore fugiat id dignissimos
-                  velit. Est ducimus facilis nam cupiditate nihil qui beatae
-                  asperiores hic repudiandae impedit. Eos rerum temporibus ut
-                  illum galisum aut voluptas beatae eum praesentium aspernatur
-                  et dolorum alias cum voluptatem ipsa et incidunt quam.
+                  This portfolio was made with React, Nextjs, Tailwindcss, Node,
+                  and AWS. Don't forget to create an account, so that you can
+                  play around with some of my components!
                 </p>
+                <p className="p-2">Enjoy hovering around,</p>
+                <p className="p-2">Aubrey</p>
               </section>
             </div>
             <div className="flex justify-center w-2/5 bg-red-200 shadow-inner shadow-zinc-400 hover:shadow-zinc-600 rounded-sm">
