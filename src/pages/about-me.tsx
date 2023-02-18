@@ -7,29 +7,25 @@ export default function About() {
             Skills
           </header>
           <section className="w-1/2 h-full flex flex-col justify-center bg-slate-400 shadow-inner shadow-zinc-600 hover:shadow-zinc-700 cursor-pointer">
-            <p className="self-center text-slate-800">
-              <ul>
-                <li className="py-2">Git</li>
-                <li className="py-2">APIs</li>
-                <li className="py-2">JSON</li>
-                <li className="py-2">Data Fetching</li>
-                <li className="py-2">Hosting & Deployment</li>
-                <li className="py-2">Responsive Design</li>
-                <li className="py-2">Agile</li>
-              </ul>
-            </p>
+            <ul className="self-center text-slate-800">
+              <li className="py-2">useState, useEffect</li>
+              <li className="py-2">useReducer, Redux</li>
+              <li className="py-2">API Calls</li>
+              <li className="py-2">JSON & Data Fetching</li>
+              <li className="py-2">Hosting & Deployment</li>
+              <li className="py-2">Responsive Design</li>
+              <li className="py-2">Agile</li>
+            </ul>
           </section>
           <section className="w-1/2 h-full flex flex-col justify-center bg-slate-600 shadow-inner shadow-zinc-600 hover:shadow-zinc-700 cursor-pointer">
-            <p className="m-2 self-center text-slate-200">
-              <ul>
-                <li className="py-2">React</li>
-                <li className="py-2">Nextjs</li>
-                <li className="py-2">Tailwindcss</li>
-                <li className="py-2">Postgres</li>
-                <li className="py-2">Node</li>
-                <li className="py-2">AWS</li>
-              </ul>
-            </p>
+            <ul className="list-disc self-center text-slate-200">
+              <li className="py-2">React</li>
+              <li className="py-2">Nextjs</li>
+              <li className="py-2">Tailwindcss</li>
+              <li className="py-2">Postgres</li>
+              <li className="py-2">Node</li>
+              <li className="py-2">AWS</li>
+            </ul>
           </section>
         </div>
       </div>
