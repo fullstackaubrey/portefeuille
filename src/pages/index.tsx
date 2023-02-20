@@ -27,7 +27,7 @@ export default function Home() {
                   play around with some of my components!
                 </p>
                 <p className="p-2">Enjoy hovering around,</p>
-                <p className="p-2">Aubrey</p>
+                <p className="p-2">{name}</p>
               </section>
             </div>
             <div className="flex justify-center w-2/5 bg-red-200 shadow-inner shadow-zinc-400 hover:shadow-zinc-600 rounded-sm">
